@@ -6,7 +6,6 @@
 using namespace std;
 
 //mail service auth sytem.
-// <3 birusk
 
 int main(){
 
