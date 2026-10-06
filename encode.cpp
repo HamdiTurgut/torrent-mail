@@ -2,39 +2,99 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include <bitset>
+#include <cstdlib>
 using namespace std;
 
-//mail service auth sytem.
 
-int main(){
+void encrypt(vector <char> characters){
+
+size_t i=characters.size;
+
+for(int i=0; i<i; i++){
+
+if(characters[i]=="a"){
+
+    characters[i]{"x"};
+
+}
+
+
+}
+
+}
+vector <string> users;
+
+string ServerSideId;
+string ServerSideSign;
+string TransferData;
+string SenderId;
 
 class userID{
 
     public:
 
-    const int ID{42001038828}; 
+    const long long  ID=rand();
+
     const string SIGNATURE{"f#='44x0ftTopFM./134"};
-    string ANSWER;
  
-    bitset <1> listen{"0"};
+string send(string id , string sign , string  message){
 
-    string check(){
-    if(listen!=1){
+   ServerSideId=id;
+   ServerSideSign=sign;
+   SenderId=ID;
 
-        cin >> ANSWER;
-return "cicada";
+    TransferData=encrypt(message);
 
-    }
-    
+cout << TransferData;
+
+}
+
+string check(){
+
+if(!ServerSideId.empty()){
+
+if(ServerSideSign==SIGNATURE){
+
+cout << ServerSideSign;
+cout << endl;
+
+bool choice{0};
+
+cout << "Wanna Send Massage Back ? (1) ";
+cin >> choice;
+
+if(choice==true){
+cout << "enter message : "; 
+
+cin >> send();
+
+}
+
+
+
+}
+
 };
 
+return "";
+
+}
+
 };
 
-   userID hamdi;
-   userID anyone;
+int main(){
 
+size_t userList users.size();
+
+while(true){
+
+userID users
+
+userID anyone0;
+userID anyone1;
+
+}
    
-   
+
 
 }
