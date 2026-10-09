@@ -2,7 +2,7 @@
 <img width="1021" height="233" alt="no to data sell" src="https://github.com/user-attachments/assets/2066d1ff-3278-4956-a37f-b12db357e8a7" />
 
 
-Torrent Mail is a decentralized email service powered by a peer-to-peer (P2P) network.
+Torrent Tcp is a decentralized email service powered by a peer-to-peer (P2P) network.
 
 Every message is end-to-end encrypted with cryptography and can only be decrypted using your unique cryptographic key. By using Torrent Mail, you don't just send emails—you become part of the infrastructure. Every active user acts as a P2P node, hosting and relaying the encrypted network.
 
