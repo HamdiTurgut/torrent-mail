@@ -5,19 +5,16 @@
 #include <cstdlib>
 using namespace std;
 
-
 void encrypt(vector <char> characters){
 
 size_t i=characters.size;
 
 for(int i=0; i<i; i++){
-
 if(characters[i]=="a"){
-
+    
     characters[i]{"x"};
 
 }
-
 
 }
 
@@ -34,7 +31,6 @@ class userID{
     public:
 
     const long long  ID=rand();
-
     const string SIGNATURE{"f#='44x0ftTopFM./134"};
  
 string send(string id , string sign , string  message){
@@ -44,7 +40,6 @@ string send(string id , string sign , string  message){
    SenderId=ID;
 
     TransferData=encrypt(message);
-
 cout << TransferData;
 
 }
@@ -52,7 +47,6 @@ cout << TransferData;
 string check(){
 
 if(!ServerSideId.empty()){
-
 if(ServerSideSign==SIGNATURE){
 
 cout << ServerSideSign;
@@ -65,33 +59,25 @@ cin >> choice;
 
 if(choice==true){
 cout << "enter message : "; 
-
 cin >> send();
 
 }
 
+}
 
+};
+    return "";
 
 }
 
 };
-
-return "";
-
-}
-
-};
-
 int main(){
-
 size_t userList users.size();
 
 while(true){
-
-userID users
-
-userID anyone0;
-userID anyone1;
+    userID users
+    userID anyone0;
+    userID anyone1;
 
 }
    
